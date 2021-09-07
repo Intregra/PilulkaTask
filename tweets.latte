@@ -1,0 +1,10 @@
+<h1>Simple Latte tweet template example</h1>
+
+{foreach $tweets->statuses as $tweet}
+    <hr>
+    <div>
+        <div>{$tweet->created_at|date:'Y-m-d H:i'}</div>
+        <div><b>{$tweet->user->screen_name}</b></div>
+        <div>{$tweet->text}</div>
+    </div>
+{/foreach}

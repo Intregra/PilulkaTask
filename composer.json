@@ -1,0 +1,6 @@
+{
+    "require": {
+        "abraham/twitteroauth": "^3.1",
+        "latte/latte": "^2.10"
+    }
+}
